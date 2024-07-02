@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julia Tulkina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <figure>
+            <a href="/"><img src="./assets/logo.svg" alt="logo" /> </a>
+          </figure>
+          <ul class="nav-lists">
+            <li class="nav-item"><a href="#about-me">Про мене</a></li>
+            <li class="nav-item"><a href="#portfolio">Портфоліо</a></li>
+            <li class="nav-item"><a href="#price">Ціни</a></li>
+            <li class="nav-item"><a href="#sign-up">Записатися</a></li>
+            <li class="nav-item pnone">
+              <a href="tel:+380961195404" class="phone-link" id="#pnone"
+                >+380 (96) 119 54 04
+                </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="main">
+        <section class="section-1">
+          <div class="wrapper-text-section-1">
+            <h1 class="main-name">юлія тюлькіна</h1>
+            <p class="main-job">фотограф/відеооператор</p>
+            <button class="buy-photoshoot">
+              <a href="#sign-up-julia"> Записатися на фотосесію </a>
+            </button>
+          </div>
+          <figure>
+            <img src="./assets/images/julia-main.svg" alt="julia" />
+          </figure>
+        </section>
+        <section class="section-2" id="about-me">
+          <div class="wrapper-left-side">
+            <h2 class="about-me">про мене</h2>
+            <figure>
+              <img src="./assets/images/julia-2.png" alt="julia-2" />
+            </figure>
+            <p class="paragraph-name">Юлія Тюлькіна</p>
+          </div>
+          <div class="wrapper-right-side">
+            <h4 class="presentation-julia">
+              Привіт! Мене звати Юлія, я фотограф з Вінниці
+            </h4>
+            <p class="presentation-text">
+              Займаюся фотографією більше 2 років. Люблю живі, природні, теплі
+              та емоційні кадри. Я можу працювати з такими інструментами, як
+              Photoshop, Lightroom.
+              <br />
+              Фотографія для мене - це спосіб показати красу в простоті, тобто
+              відкрити завісу витонченої і ненав'язливої. Зйомки - це щось
+              особливе значення, адже можна відобразити момент назавжди і
+              залишити відбиток в історії.
+            </p>
+            <figure>
+              <img src="./assets/images/julia-3.svg" alt="julia-3" />
+            </figure>
+          </div>
+        </section>
+        <section class="section-3" id="portfolio">
+          <div class="portfolio-photos">
+            <h2 class="portfolio-julia">Портфоліо</h2>
+            <div class="wrapper-portfolio">
+              <div class="portfolio-item">
+                <figure>
+                  <img src="./assets/images/portfolio-1.svg" alt="home-photo" />
+                </figure>
+                <h6>Теплі фото в домашніх умовах</h6>
+                <p>
+                  Теплі фото вдома: затишок, світло свічок, родина, обійми,
+                  усмішки, м'які тканини.
+                </p>
+                <button><a href="/">Всі фото</a></button>
+              </div>
+              <div class="portfolio-item">
+                <figure>
+                  <img
+                    src="./assets/images/portfolio-2.svg"
+                    alt="morning-photo"
+                  />
+                </figure>
+                <h6>Ранкове відео</h6>
+                <p>
+                  Ранкове відео на природі: світанок, туман, спів птахів, шелест
+                  листя, роса, пробудження лісу, сонячні промені, свіже повітря,
+                  спокій.
+                </p>
+                <button><a href="/">Всі фото</a></button>
+              </div>
+              <div class="portfolio-item">
+                <figure>
+                  <img
+                    src="./assets/images/portfolio-3.svg"
+                    alt="flowers-photo"
+                  />
+                </figure>
+                <h6>Квіткова фотосесія</h6>
+                <p>
+                  Квіткова фотосесія: барвисті квіти, природна краса, макро,
+                  аромат, ніжність, весна, світло, творчість, затишок.
+                </p>
+                <button><a href="/">Всі фото</a></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-4" id="price">
+          <div class="price">
+            <h2>Ціни</h2>
+            <div class="wrapper-price">
+              <div class="price-item">
+                <figure>
+                  <img src="./assets/images/price-1.svg" alt="price-1" />
+                </figure>
+                <h6>Фотосесія</h6>
+                <p>Tривалість<span>1 година</span></p>
+                <p>Время обработки фото<span>5 днів</span></p>
+                <p>Кількість фото<span>20 штук</span></p>
+                <div class="footer-price">
+                  <p class="price-grn">200 грн</p>
+                  <button><a href="/">Замовити зараз</a></button>
+                </div>
+              </div>
+              <div class="price-item">
+                <figure>
+                  <img src="./assets/images/price-2.svg" alt="price-2" />
+                </figure>
+                <h6>Відеозйомка</h6>
+                <p>Tривалість<span> 1 година</span></p>
+                <p>Время обработки фото<span> 5 днів</span></p>
+                <p>Кількість фото<span> 20 штук</span></p>
+                <div class="footer-price">
+                  <p class="price-grn">300 грн</p>
+                  <button><a href="/">Замовити зараз</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-5">
+          <div class="sign-up" id="sign-up">
+            <div class="wrapper-sign-up">
+              <h2>
+                Запишіться до <br />
+                Юлії
+              </h2>
+              <div class="left-side-signup">
+                <img
+                  src="./assets/images/sing1.png"
+                  alt="julia-sing-up"
+                  class="sign-up-1"
+                />
+                <img
+                  src="./assets/images/sing2.png"
+                  alt="julia-sing-up-2"
+                  class="sign-up-2"
+                />
+              </div>
+            </div>
+            <div class="right-side-signup">
+              <div class="section-form">
+                <div class="inputs">
+                  <div class="input-name">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="І'мя..."
+                      required
+                    />
+                  </div>
+                  <div class="input-email">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Е-мейл..."
+                      required
+                    />
+                  </div>
+                  <div class="comment">
+                    <textarea
+                      class="comment"
+                      name="comment"
+                      placeholder="Повідомлення..."
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="btn-subscribe">
+                    <button>Відправити</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <section class="section-footer">
+            <footer class="footer">
+              <div class="footer-imgs">
+                <a href="/"><img src="./assets/logo.svg" alt="logo" class="footer-julia"  /> </a>
+                <a href="https://www.instagram.com/">
+                  <img src="./assets/images/instagram.png" alt="instagram" class="instagram" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <img src="./assets/facebook.svg" alt="facebook" class="facebook"  />
+                </a>
+                <a href="https://accounts.google.com/">
+                  <img src="./assets/images/email.png" alt="email" class="email" />
+                </a>
+                <a href="tel:+380961195404" class="phone-footer" id="#pnone"
+                >+380 (96) 119 54 04
+                </a>
+              </div>
+            </footer>
+          </section>
+  </body>
+</html>
